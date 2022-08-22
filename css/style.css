@@ -1,0 +1,683 @@
+/* ========================================================================================= -->
+   /////////////////////// #----------< General CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.form-title {
+    position: relative;
+}
+
+.form-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.form-title h2::after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    bottom: -30%;
+    width: 20%;
+    height: 2px;
+    background-color: #0078FF;
+}
+
+.title {
+    position: relative;
+}
+
+.title h2 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20%;
+    width: 5%;
+    height: 5px;
+    background-color: #0078FF;
+}
+
+.can {
+    width: 90% !important;
+    margin: auto;
+}
+
+.blog-can {
+    width: 85% !important;
+    margin: auto;
+}
+
+.main-color {
+    color: #0078FF;
+}
+
+footer {
+    background-color: #0062D3;
+}
+
+footer p {
+    color: White;
+    margin-bottom: 5px;
+}
+
+.contact-content-padding {
+    padding: 50px;
+}
+
+
+/* /////////////////////// #----------< End General >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Home CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< To Top Icon >----------# /////////////////////// --> */
+
+.to-top {
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    z-index: 9999;
+    display: none;
+}
+
+.to-top i {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #0078FF;
+    color: #fff;
+}
+
+.to-top i:hover {
+    background-color: #73b4ff;
+}
+
+
+/* /////////////////////// #----------< Loading Layer >----------# /////////////////////// --> */
+
+.loading-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 1);
+    opacity: 1;
+}
+
+
+/* /////////////////////// #----------< Home Background >----------# /////////////////////// --> */
+
+.home {
+    height: 100vh;
+    background-image: url('../images/hero-bg.jpg');
+    background-position: center center;
+    position: relative;
+}
+
+.home-layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+
+/* /////////////////////// #----------< Home Nav-bar Links >----------# /////////////////////// --> */
+
+nav {
+    transition: all 1s;
+    background-color: black;
+}
+
+.nav-link {
+    text-transform: uppercase;
+}
+
+.home .container-fluid {
+    width: 90% !important;
+    margin: auto !important;
+}
+
+.navbar-brand {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.nav-item {
+    font-weight: 600;
+    margin-left: 15px;
+    transition: all 1s;
+    position: relative;
+}
+
+.link-line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 1s;
+}
+
+
+/* 
+.nav-item:hover .link-line {
+    width: 100%;
+} */
+
+
+/* /////////////////////// #----------< Home Caption >----------# /////////////////////// --> */
+
+.home-caption {
+    color: white;
+}
+
+.home-caption h1 {
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.home-caption span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+/* /////////////////////// #----------< End Home >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< About CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< Card Background >----------# /////////////////////// --> */
+
+.about {
+    background-color: #F5F5F5;
+}
+
+.about .container {
+    background-color: white
+}
+
+
+/* /////////////////////// #----------< Developer Info >----------# /////////////////////// --> */
+
+.info-line {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-line h5 {
+    margin-right: 5px;
+}
+
+.developer-img img {
+    border-radius: 5px;
+}
+
+
+/* /////////////////////// #----------< Developer Skills >----------# /////////////////////// --> */
+
+.technical-skills .skill p {
+    margin-bottom: 6px;
+}
+
+
+/* /////////////////////// #----------< Developer Caption >----------# /////////////////////// --> */
+
+.about-caption-title {
+    position: relative;
+}
+
+.about-caption-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 20%;
+    height: 2px;
+    background-color: #0078FF;
+}
+
+.about-caption p {
+    font-size: 18px;
+    color: #4e4e4e;
+}
+
+
+/* /////////////////////// #----------< End About >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Services CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< Services Background >----------# /////////////////////// --> */
+
+.services {
+    background-color: #F5F5F5;
+}
+
+
+/* /////////////////////// #----------< Services Items >----------# /////////////////////// --> */
+
+.sercice-item {
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sercice-item i {
+    font-size: 40px;
+    padding: 30px;
+    border: solid 10px #0078FF;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.sercice-item i:hover {
+    color: white;
+    background-color: #0078FF;
+    border: solid 10px #8bc1ff;
+}
+
+
+/* /////////////////////// #----------< Experience Items >----------# /////////////////////// --> */
+
+.experience {
+    background-image: url('../images/counters-bg.jpg');
+    background-attachment: fixed;
+}
+
+.experience .layer {
+    background-color: rgba(54, 140, 238, 0.7);
+}
+
+.experience i {
+    font-size: 32px;
+}
+
+.experience .i-layer {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    border: solid rgb(189, 189, 189) 10px;
+    border-radius: 50%;
+}
+
+.timer {
+    font-size: 20px;
+}
+
+
+/* /////////////////////// #----------< End Services >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Portfolio CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< Portfolio Background >----------# /////////////////////// --> */
+
+.portfolio {
+    background-color: #F5F5F5;
+}
+
+
+/* /////////////////////// #----------< Portfolio Items >----------# /////////////////////// --> */
+
+.port-item {
+    background-color: white;
+}
+
+.port-item-caption {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.port-icon i {
+    font-size: 21px;
+    color: #0078FF;
+    padding: 7px;
+    border: solid 3px #0078FF;
+    border-radius: 50%;
+}
+
+.port-item .img-layer {
+    overflow: hidden;
+}
+
+.port-item img {
+    transition: all 1s;
+}
+
+.port-item img:hover {
+    transform: scale(1.4);
+}
+
+
+/* /////////////////////// #----------< Portfolio Slider >----------# /////////////////////// --> */
+
+.slider {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, .7);
+    display: none;
+}
+
+.slider i,
+.exit {
+    height: fit-content;
+    background-color: #000;
+    padding: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.slider .exit {
+    position: fixed;
+    top: 2%;
+    right: 2%;
+}
+
+
+/* /////////////////////// #----------< Portfolio Employees >----------# /////////////////////// --> */
+
+.employees {
+    background-image: url('../images/overlay-bg.jpg');
+    background-position: center center;
+    position: relative;
+    padding: 100px 0;
+}
+
+.employees .layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(54, 140, 238, 0.7);
+}
+
+.employees .carousel-item img {
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 50%;
+    display: block !important;
+}
+
+.employees .carousel-caption {
+    position: relative;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.employees .carousel-caption h5 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.employees .carousel-caption p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+/* /////////////////////// #----------< End Portfolio >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Blog CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< Blog Background >----------# /////////////////////// --> */
+
+.blog {
+    background-color: #F5F5F5;
+}
+
+
+/* /////////////////////// #----------< Blog Items >----------# /////////////////////// --> */
+
+.blog-caption-parent {
+    position: relative;
+}
+
+.blog-caption a,
+.blogger a {
+    text-decoration: none;
+    color: black;
+    transition: all 1s;
+}
+
+.blog-caption a:hover,
+.blogger a:hover {
+    color: #0078FF;
+}
+
+.blogger {
+    background-color: #ebebeb;
+    font-size: 14px;
+}
+
+.blogger .layer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.blogger img {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.blog .travel {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0078FF;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.travel p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* /////////////////////// #----------< End Blog >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Contact CSS Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+
+/* /////////////////////// #----------< Contact Background >----------# /////////////////////// --> */
+
+.contact {
+    background-image: url('../images/overlay-bg.jpg');
+    background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+    padding: 100px;
+}
+
+.contact .layer {
+    padding: 100px;
+    background-color: rgba(74, 155, 239, .7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* /////////////////////// #----------< Contact Form >----------# /////////////////////// --> */
+
+.contact-content {
+    background-color: white !important;
+    position: relative;
+}
+
+.cantact-form button {
+    font-size: 19px;
+}
+
+
+/* /////////////////////// #----------< Get In Touch >----------# /////////////////////// --> */
+
+.get-touch .caption p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.get-touch .info div {
+    margin-bottom: 10px;
+}
+
+.get-touch .info i {
+    color: #0078FF;
+    margin-right: 10px;
+}
+
+.get-touch .icons {
+    width: 50%;
+    text-align: center;
+}
+
+.get-touch .icons .icon-layer {
+    width: 45PX;
+    height: 45PX;
+    border: solid 4px #0078FF;
+    border-radius: 50%;
+    transition: all 1s;
+}
+
+.get-touch .icons i {
+    font-size: 19px;
+}
+
+.get-touch .icons .icon-layer:hover {
+    background-color: #0078FF;
+    color: white;
+    border: solid 4px #8bc1ff;
+}
+
+
+/* /////////////////////// #----------< End Contact >----------# /////////////////////// --> */
+
+
+/* ========================================================================================= -->
+   /////////////////////// #----------< Media Query Code >----------# /////////////////////// -->
+   ========================================================================================= -->*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .get-touch .icons {
+        width: 70%;
+    }
+    .blog-can {
+        width: 95% !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .home-caption {
+        width: 70%;
+        margin: auto;
+    }
+    .blogger .layer {
+        flex-wrap: wrap;
+    }
+    .blog-can {
+        width: 95% !important;
+    }
+    .blogger .layer .time {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .contact {
+        padding: 100px 20px;
+    }
+    .get-touch .icons {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .home-caption {
+        width: 100%;
+    }
+    .home-caption h1 {
+        font-size: 48px;
+    }
+    .home-caption span {
+        font-size: 24px;
+    }
+    .services .item-layer {
+        margin-bottom: 30px;
+    }
+    .exp-item-layer {
+        margin-bottom: 30px;
+    }
+    .port-item-layer {
+        margin-bottom: 30px;
+    }
+    .blog-img-layer {
+        margin-bottom: 30px;
+    }
+    .contact-content-padding {
+        padding: 100px 20px !important;
+    }
+    .contact {
+        padding: 100px 20px;
+    }
+    .contact-form {
+        margin-bottom: 50px;
+    }
+}
+
+
+/* /////////////////////// #----------< End Media Query >----------# /////////////////////// --> */
